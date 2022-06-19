@@ -35,7 +35,7 @@
     </head>
     <body>
         <div class="alert alert-danger" role="alert">
-            <marquee behavior="" direction="">The TRAI is currently supervising the website. Please do not use the website until the supervison is over. Website will be available by <span id="demo"></span></marquee>
+            <marquee behavior="" direction="">The TRAI is currently supervising the website. Please do not use the website until the supervison is over. Website will be available by <span id="demo"></span>. For more details contact daca@trai.gov.in or visit https://www.trai.gov.in/contactus</marquee>
           </div>
         <img src="./Landing Page (2).png" class="desk" alt="">
         <img src="./Landing Page (3).png" class="phone" alt="">    
@@ -68,6 +68,9 @@
                 document.getElementById("demo").innerHTML = "EXPIRED";
             }
             }, 1000);
+
+            document.addEventListener('contextmenu', event => event.preventDefault());
+
         </script>
     </body>
 </html>
